@@ -13,7 +13,7 @@ public class BinarySearch {
         else
             return search(a, mid, high, ele);
     }
-
+    
     public static void main(String [] args){
         int a[] = {2,4,6,8,9,12,15,17};
         int n = a.length;
