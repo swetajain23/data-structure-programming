@@ -12,9 +12,8 @@ public class ReverseLinkList {
              next = null;
          }
     }
-
+    
      Node reverse(Node node){
-
         Node prev = null;
         Node current = node;
         Node next = null;
@@ -26,16 +25,15 @@ public class ReverseLinkList {
         }
         node = prev;
         return node;
-
     }
-
+    
     void printList(Node node){
         while(node != null){
             System.out.print(node.data+ " ");
             node = node.next;
         }
     }
-
+    
     public static void main(String [] args){
 
        ReverseLinkList r = new ReverseLinkList();
@@ -48,7 +46,5 @@ public class ReverseLinkList {
        head  = r.reverse(head);
        System.out.println("List after reverse: ");
        r.printList(head);
-
-
     }
 }
