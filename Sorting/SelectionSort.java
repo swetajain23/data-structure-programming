@@ -21,7 +21,7 @@ public class SelectionSort {
         for(int i = 0 ; i < n ; ++i)
             System.out.println("Selection Sort Array!!!!! " +a[i]);
     }
-
+    
     public static void main(String args[]){
 
         Integer arr[] = {4, 2, 9, 6, 1, 5, 10,74,23,27,71,34,96,54,32,54,21,51};
